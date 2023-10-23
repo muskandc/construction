@@ -1,0 +1,657 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.icon{
+    list-style: none;
+    text-transform: none;
+}
+header h2{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+span{
+     color: darkred;
+}
+header{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.icon{
+    margin-right: 2rem;
+}
+.icon i{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+.icon i:hover{
+    background-color: transparent;
+    border: transparent;
+    color: black;
+}
+/*main*/
+.main{
+    position: absolute;
+    top: 12rem;
+    right: 7rem;
+}
+.main h1{
+    font-size: 50px;
+    color: darkred;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.main h2{
+    font-size: 35px;
+    color: darkred;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    
+}
+.main p{
+    font-size: 15px;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    
+}
+.main button{
+    background-color: darkred;
+    color: white;
+    border: 1px solid darkred;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 10px;
+   
+}
+.main-img img{
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/*about*/
+.about{
+    margin-top: 2rem;
+}
+.about-con{
+    display: flex;
+    gap: 4rem;
+}
+.about-con img{
+    margin-left: 6rem;
+    width: 400px;
+    height: 300px;
+}
+.about-con1 h3{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 10px;
+}
+.about-con1 p{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.about-con1 button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/*banner*/
+.banner{
+    margin-top: 4rem;
+}
+.sa-banner{
+    display: flex;
+    gap: 5rem;
+    margin-left: 8rem;
+    margin-right: 2rem;
+}
+.sa-banner1{
+    background-color: gray;
+    color: black;
+    width: 200px;
+    height: 100px;
+}
+.sa-banner1:hover{
+    background-color: pink;
+}
+.sa-banner1 h5{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 2rem;
+}
+.sa-banner1 p{
+    text-align: center;
+    font-size: 20px;
+}
+
+/*services*/
+.services{
+    margin-top: 4rem;
+}
+.services-con{
+    display: flex;
+    gap: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.services-1{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(241, 236, 230);
+    padding: 10px;
+}
+.services-1 h5{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.services-1 p{
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(153, 150, 150);
+}
+/*dark-theme*/
+.dark-theme{
+    background-color: black;
+    color: gold;
+}
+#menu-icon{
+    display: none;
+}
+#search{
+    display: none;
+}
+#form{
+    display: none;
+}
+
+/*sa-banner*/
+.banners{
+    margin-top: 4rem;
+}
+.sa-banners{
+    margin-top: 2rem;
+}
+.sa-banners h2{
+    font-size: 29px;
+    color: black;
+    text-transform: capitalize;
+    margin-left: 5rem;
+}
+.sa-banners-con{
+    margin-top: 2rem;
+    display: flex;
+    gap: 5rem;
+    margin-left: 2rem;
+}
+.sa-banners1{
+    background-color: antiquewhite;
+    padding: 15px;
+    width: 20%;
+}
+.sa-banners1 i{
+    background-color: gold;
+    color: black;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-left: 5rem; 
+}
+.sa-banners1 h3{
+  color: darkred;
+  font-size: 29px;
+  padding: 5px;
+  text-align: center;
+}
+.sa-banners1 h6{
+    font-size: 30px;
+    font-weight: 200;
+    padding: 5px;
+    text-align: center;
+}
+.sa-banners1 span{
+    font-size: 15px;
+}
+.sa-banners-con2 h6{
+    font-size: 17px;
+    text-align: center;
+}
+.sa-banners-btn button{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: transparent;
+    color: darkred;
+    font-weight: 200;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 10px;
+}
+.sa-banners-btn button:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+}
+
+/*client*/
+.client{
+    margin-top: 4rem;
+}
+.client-con h2{
+    font-size: 29px;
+    color: darkred;
+    margin-bottom: 10px;
+    margin-left: 5rem;
+}
+.client-con1{
+    display: flex;
+    gap: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.client-con2{
+    width: 20%;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.client-con2 p{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.client-name h5{
+    font-size: 20px;
+    color: darkred;
+    margin-bottom: 2px;
+    margin-top: 1rem;
+}
+.client-star i{
+    color: gold;
+}
+.img img{
+    border-radius: 55%;
+    width: 50px;
+    height: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5rem;
+}
+/*map*/
+.map{
+    margin-top: 4rem;
+}
+.map-con{
+    display: flex;
+    gap: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.map1{
+    width: 500px;
+    height: 400px;
+}
+.map2{
+    background-color: antiquewhite;
+    height: 400px;
+    width: 400px;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+}
+.map2 input{
+   display: flex;
+   background-color: black;
+   width: 80%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   border: 1px solid black;
+   color: white;
+}
+.word{
+    display: flex;
+}
+.word i{
+    color: black;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.map2 input ::placeholder{
+    color: white;
+}
+.map button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: -10px;
+}
+
+/*blog*/
+.blogs{
+    margin-top: 7rem;
+}
+.blog-con{
+    margin-top: 2rem;
+}
+.blog-con h2{
+    margin-left: 2rem;
+    color: darkred;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+.blog-1{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    gap: 10rem;
+}
+.blog-2{
+    width: 300px;
+    height: 320px;
+    background-color: rgb(200, 207, 214);
+    border: 1px solid rgb(202, 206, 209);
+    box-shadow: 10px 5px 5px rgb(153, 150, 150);
+}
+.blog-2 img{
+    margin-left: 10px;
+}
+.blog-2 h5{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.blog-2 p{
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.blog-2 button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: 200;
+    letter-spacing: 1;
+    border: 1px solid black;
+    width: 100%;
+}
+.blog-2 button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+/*last*/
+.last{
+    margin-top: 4rem;
+    padding: 10px;
+}
+.last-con{
+    display: flex;
+    gap: 5rem;
+    margin-left: 10rem;
+   
+}
+.last-con h4{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+.last-con h4:hover{
+    background-color: gold;
+    color: black;
+    border: 1px solid gold;
+}
+
+.name{
+    margin-top: 4rem;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+.name h6{
+    text-align: center;
+    color: darkred;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 700px) {
+    #menu-icon{
+        display: block;
+    }
+    .icon{
+        display: flex;
+    }
+    .navbar{
+        width: 100%;
+        flex-direction: column;
+        z-index: 2;
+        background-color: black;
+        padding: 10px;
+        position: absolute;
+        top: -225rem;
+        left: 0;
+        right: 0;
+    }
+    .navbar.active{
+        top: 2.5rem;
+    }
+    .navbar li{
+        padding: 5px;
+        margin: 5px;
+    }
+    .navbar li a{
+        color: wheat;
+        padding-top: 7px 7px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    /*main*/
+    .main{
+        position: absolute;
+        top: 4rem;
+        right: 0;
+        left: 2rem;
+    }
+    .main h1{
+        font-size: 19px;
+    }
+    .main h2{
+        font-size: 15px;
+    }
+    .main p{
+        font-size: 10px;
+    }
+    .main button{
+        padding: 6px;
+    }
+
+    /*about*/
+    .about-con img{
+        width: 330px;
+        height: 300px;
+        margin-left: 1px;
+    }
+    .about-con{
+        flex-direction: column;
+    }
+    
+    /*banner*/
+    .sa-banner{
+        flex-direction: column;
+        margin-left: 1px;
+    }
+    /*services*/
+    .services-con{
+        flex-direction: column;
+        margin-left: 1px;
+    }
+    /*search-bar*/
+    .search{
+        position: absolute;
+        top: -220rem;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 80vh;
+        background-color: black;
+    }
+    .search.active{
+        top: 0;
+    }
+    .search input{
+        position: absolute;
+        top: 10rem;
+        left: 5rem;
+        color: white;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .search ::placeholder{
+        color: black;
+    }
+    #close{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        padding: 5px;
+        background-color: wheat;
+        color: black;
+    }
+    /*form*/
+    .form{
+        position: absolute;
+            top: -220rem;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 80vh;
+            background-color: black;
+    }
+    .form.active{
+        top: 0;
+    }
+    .form-con{
+        position: absolute;
+        top: 5rem;
+        left: 1rem;
+        right: 0;
+        background-color: aliceblue;
+        border-radius: 10px;
+        border: 1px solid black;
+        margin-right: 3rem;
+        padding: 10px;
+    
+    }
+    .form-con input{
+        background-color: aliceblue;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 2px;
+    }
+    .form-con input ::placeholder{
+        color: black;
+    }
+    .btn button{
+        background-color: transparent;
+        color: black;
+        padding: 8px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 3px;
+
+    }
+    #closee{
+        position: absolute;
+            top: 10px;
+            right: 1rem;
+            padding: 5px;
+            background-color: wheat;
+            color: black;
+    }
+    .sa-banners-con{
+        flex-direction: column;
+    }
+    .sa-banners1{
+        width: 250px;
+        margin-left: 1px;
+    }
+    .client-con1{
+        flex-direction: column;
+    }
+    .client-con2{
+        width: 250px;
+       margin-left: -2rem;
+    }
+    .last-con{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 1px;
+    }
+    .map-con{
+        flex-direction: column;
+        margin-left: 1px;
+        gap: 3rem;
+    }
+    .map1 iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .map2{
+        width: 300px;
+        height: 300px;
+        margin-left: 1px;
+    }
+    .blog-1{
+        flex-direction: column;
+        margin-left: 1px;
+    }
+}
